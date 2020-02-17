@@ -5,12 +5,14 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
 import com.perfree.entity.User;
+import org.springframework.stereotype.Repository;
 
 /**
  * UserMapper接口,因数据表不多,故采用注解方式开发
  * @author Perfree
  *
  */
+@Repository
 public interface UserMapper{
 
 	/**

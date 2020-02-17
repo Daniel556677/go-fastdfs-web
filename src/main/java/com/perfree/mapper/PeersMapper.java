@@ -2,6 +2,7 @@ package com.perfree.mapper;
 
 import com.perfree.entity.Peers;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
@@ -10,6 +11,7 @@ import java.util.List;
  * @author Perfree
  *
  */
+@Repository
 public interface PeersMapper {
 
     /**
