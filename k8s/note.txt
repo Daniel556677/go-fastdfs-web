@@ -1,0 +1,5 @@
+docker 部署go-fastdfs-web
+docker run -d --net=host --name go-fastdfs-web 0d5839125ee5
+
+需要注意fastdfs-db.db文件存放的位置。
+    spring.datasource.url=jdbc:sqlite:db/go-fastdfs.db 这样程序会在项目所在目录go-fastdfs-web下的db中加载fastdfs-db.db

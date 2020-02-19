@@ -5,9 +5,11 @@ import com.perfree.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author 560294
+ */
 @Service
 public class SettingService {
-
     @Autowired
     private UserMapper userMapper;
 
